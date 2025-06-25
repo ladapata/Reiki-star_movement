@@ -1,0 +1,55 @@
+- ros_topic_name: "camera_color_foward"
+  gz_topic_name: "color_cam_foward"
+  ros_type_name: "sensor_msgs/msg/Image"
+  gz_type_name: "gz.msgs.Image"
+  lazy: true
+  direction: "GZ_TO_ROS"
+
+- ros_topic_name: "camera_ir1_foward"
+  gz_topic_name: "ired1_cam_foward"
+  ros_type_name: "sensor_msgs/msg/Image"
+  gz_type_name: "gz.msgs.Image"
+  lazy: true
+  direction: "GZ_TO_ROS"
+
+- ros_topic_name: "camera_ir2_foward"
+  gz_topic_name: "ired2_cam_foward"
+  ros_type_name: "sensor_msgs/msg/Image"
+  gz_type_name: "gz.msgs.Image"
+  lazy: true
+  direction: "GZ_TO_ROS"
+
+- ros_topic_name: "camera_depth_foward"
+  gz_topic_name: "depth_cam_foward"
+  ros_type_name: "sensor_msgs/msg/Image"
+  gz_type_name: "gz.msgs.Image"
+  lazy: true
+  direction: "GZ_TO_ROS"
+
+- ros_topic_name: "camera_color_down"
+  gz_topic_name: "color_cam_down"
+  ros_type_name: "sensor_msgs/msg/Image"
+  gz_type_name: "gz.msgs.Image"
+  lazy: true
+  direction: "GZ_TO_ROS"
+
+- ros_topic_name: "camera_ir1_down"
+  gz_topic_name: "ired1_cam_down"
+  ros_type_name: "sensor_msgs/msg/Image"
+  gz_type_name: "gz.msgs.Image"
+  lazy: true
+  direction: "GZ_TO_ROS"
+
+- ros_topic_name: "camera_ir2_down"
+  gz_topic_name: "ired2_cam_down"
+  ros_type_name: "sensor_msgs/msg/Image"
+  gz_type_name: "gz.msgs.Image"
+  lazy: true
+  direction: "GZ_TO_ROS"
+  
+- ros_topic_name: "camera_depth_down"
+  gz_topic_name: "depth_cam_down"
+  ros_type_name: "sensor_msgs/msg/Image"
+  gz_type_name: "gz.msgs.Image"
+  lazy: true
+  direction: "GZ_TO_ROS"
